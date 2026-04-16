@@ -302,20 +302,17 @@
     }
 
     .cta-image {
-      min-height: 100%;
-      background: linear-gradient(135deg, rgba(243,163,19,.12), rgba(243,163,19,.02));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
+      position: relative;
+      padding: 0;
+      overflow: hidden;
     }
 
     .cta-image img {
       width: 100%;
-      max-width: 420px;
-      height: auto;
-      border-radius: 14px;
+      height: 100%;
       object-fit: cover;
+      display: block;
+      object-position: 98% center;
     }
 
     footer {
@@ -383,7 +380,7 @@
   <header class="topbar">
     <div class="container topbar-inner">
       <div class="brand">
-        <img class="brand-logo" src="img/logo-ciclotrip.jpg" alt="Logo Ciclotrip" />
+        <img class="brand-logo" src="img/logo-ciclotrip.jpg" alt="Logo Ciclotrip"  />
         <div>
           <div class="brand-name">Ciclotrip</div>
           <div class="brand-tagline">Turismo inteligente, comércio local e experiências memoráveis.</div>
@@ -493,7 +490,7 @@
             <a class="btn btn-brand" href="https://wa.me/5547933838779" target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
           </div>
           <div class="cta-image">
-            <img src="cta-ciclotrip.jpg" alt="Imagem de ciclista Ciclotrip" />
+            <img src="img/ciclista.jfif" alt="Imagem de ciclista Ciclotrip" height="70px" width="90px"/>
           </div>
         </div>
       </div>
